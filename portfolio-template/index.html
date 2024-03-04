@@ -1,0 +1,315 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Marla Santiago | Portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Compétences</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">A propos</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Marla Santiago</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Apprentie développeuse</p>
+        <a href="#contact" class="btn btn--pink">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>A propos de moi</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Je m'appelle Marla Santiago et je suis étudiante en
+              deuxième année de BTS SIO option SLAM (Solutions Logicielles
+              et Applications Métier) à l'ORT de Montreuil
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="/images/CV-Marla_SANTIAGO.pdf" target="_blank" class="btn">CV</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/photo_orange.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- ***** Compétences ***** -->
+
+  <section class="client" id="clients">
+    <div class="row">
+      <h2>Mes compétences</h2>
+      <!-- Add logos of the clients or companies you'have worked with. -->
+      <img src="./images/php.png" class="client__logo" alt="Company 2" />
+      <img src="./images/typeScript.png" class="client__logo" alt="Company 1" />
+      <img src="./images/html.png" class="client__logo" alt="Company 3" />
+      <img src="./images/css.png" class="client__logo" alt="Company 1" />
+      <img src="./images/java.png" class="client__logo" alt="Company 1" />
+      <img src="./images/sql.png" class="client__logo" alt="Company 1" />
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <img src="./images/docker.png" class="client__logo" alt="Company 1" />
+    </div>
+    <div class="row">
+      <br>
+      <br>
+      <!-- Add logos of the clients or companies you'have worked with. -->
+      <img src="./images/symfony.png" class="client__logo" alt="Company 2" />
+      <img src="./images/doctrine.png" class="client__logo" alt="Company 1" />
+      <img src="./images/prisma.png" class="client__logo" alt="Company 3" />
+    </div>
+  </section>
+
+
+
+  <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Mes projets</h2>
+        <div class="work__boxes">
+
+          <!-- Première partie du stage 2023 -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Stage 2023</h3>
+              <p>
+                Dans le cadre de mon stage, j'ai été chargé de
+                développer le site web d'EMPORIUM afin de créer
+                sa présence en ligne et d'attirer de nouveaux clients.
+              </p>
+              <ul class="work__list">
+                <li>HTML - CSS</li>
+                <li>PHP</li>
+                <li>SQL</li>
+
+              </ul>
+
+              <div class="work__links">
+                <a href="stage1.html" class="link__text">
+                  Voir plus <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/EMPORIUM.gif" class="work__image" alt="Stage 2023" />
+            </div>
+          </div>
+
+          <!-- Deuxième partie du stage 2024 -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Stage 2024</h3>
+              <p>
+                Recherche de solutions et exploration de technologies en vue d’une
+                intégration future pour une plateforme web de consultation en ligne.
+                <br>
+                Déploiement, prise en main et documentation de Cal.com et Jitsi Meet.
+              </p>
+              <ul class="work__list">
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>Prisma</li>
+                <li>TypeScript</li>
+                <!-- Ajoutez les détails pertinents -->
+              </ul>
+
+              <div class="work__links">
+                <a href="stage2.html" class="link__text">
+                  Voir plus <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="Voir le code source" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Stage2eAnnée.gif" class="work__image" alt="Stage 2024" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Helport PHP</h3>
+              <p>
+                Développer une application web en language PHP en équipe de 3 à la demande d'un client qui
+                permettrait aux étudiants de l'ORT d'aider des étudiants de niveau inférieur.
+              </p>
+              <ul class="work__list">
+                <li>PHP</li>
+                <li>HTML/CSS/JavaScript</li>
+                <li>Symfony/Doctrine</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/ort-montreuil/BTS-SIO-G5-2024-HELPORT-Web" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/ort-montreuil/BTS-SIO-G5-2024-HELPORT-Web">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/HELPORT-PHP.gif" class="work__image" alt="School Project" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Helport Java</h3>
+              <p>
+                Développer une application web en language JAVA en équipe de 3 à la demande d'un client qui
+                permettrait aux étudiants de l'ORT d'aider des étudiants de niveau inférieur.
+              </p>
+              <ul class="work__list">
+                <li>JAVA</li>
+                <li>SQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/ort-montreuil/BTS-SIO-G5-2024-HELPORT-Java" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/ort-montreuil/BTS-SIO-G5-2024-HELPORT-Java">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/HELPORT-JAVA.gif" class="work__image" alt="School Project" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Me contacter</h2>
+      <div class="contact__info">
+        <p>
+          Envie de poser des questions ? ou si vous avez des conseils à me donner ou si vous voulez simplement me dire "Bonjour 👋", n'hésitez pas à me le faire savoir. Je ferai de mon mieux pour répondre. 😊 Le moyen le plus rapide de me contacter est par e-mail.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:marla.santiago@outlook.fr" class="btn">marla.santiago@outlook.fr</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/maaarso" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/marla-santiago-a10b89298/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
